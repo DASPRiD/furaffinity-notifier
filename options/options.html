@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <form autocomplete="off">
+            <fieldset>
+                <legend>Options</legend>
+
+                <div class="form-group">
+                    <label for="updateInterval">Update Interval</label>
+                    <select id="updateInterval" class="form-control">
+                        <option value="1">1 minute</option>
+                        <option value="5">5 minutes</option>
+                        <option value="10">10 minutes</option>
+                        <option value="15">15 minutes</option>
+                        <option value="30">30 minutes</option>
+                        <option value="45">45 minutes</option>
+                        <option value="60">1 hour</option>
+                    </select>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includeSubmissionsInSummary"> Include submissions in summary
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includeCommentsInSummary"> Include comments in summary
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includeJournalsInSummary"> Include journals in summary
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includeWatchesInSummary"> Include watches in summary
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includeFavoritesInSummary"> Include favorites in summary
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="includePrivateMessagesInSummary"> Include private messages in summary
+                    </label>
+                </div>
+
+                <button type="submit">Save</button>
+            </fieldset>
+        </form>
+
+        <script src="options.js"></script>
+    </body>
+</html>
+
