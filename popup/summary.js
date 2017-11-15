@@ -39,7 +39,7 @@ function addLink(count, singularLabel, pluralLabel, path)
         });
 
         event.preventDefault();
-        this.blur();
+        window.close();
     });
 
     var li = document.createElement('li');
