@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Furaffinity Notifier",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Displays the number of FurAffinity messages the user has.",
     "icons": {
         "16": "icons/icon-16.png",
